@@ -9,3 +9,8 @@
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [License](#license)
+
+## Dependencies
+To use this program you will need following configuration and dependencies:
+- minimum Python 3
+- Selenium '''sh # pip install selenium'''
