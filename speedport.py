@@ -249,8 +249,8 @@ def print_syslog(verbosity, exclude_string, include):
     # color code and print messages
     sp = str(table.text).split("\n")
     # exit if len%2 is not 0, meaning that data is incomplete
-    if not len(sp)%2==0:
-        exit_with_message(1,"[-] Data is incomplete")
+    if not len(sp) % 2 == 0:
+        exit_with_message(1, "[-] Data is incomplete")
     for x in range(int(len(sp) / 2) - 1, 0, -1):
         first_digit = sp[x * 2 + 1][1:2]
         second_digit = sp[x * 2 + 1][2:3]
@@ -341,10 +341,10 @@ def main():
     parser.add_argument("-m", "--mode",
                         help="Set the mode (s -> static, print information once and exit / d -> dynamic, refresh information after given time (-t)", nargs=1, metavar="mode", default=["s"])
     parser.add_argument("-t", "--time", help="Time to wait until data is refreshed. (dynamic mode only)", metavar="refreshTime", nargs=1, default=[2])
-    parser.add_argument("-w", "--wifi", help="Information about the wifi interface with given frequency (2.4 or 5) and connected clients.", metavar="wifi", nargs=1, default=argparse.SUPPRESS)
-    parser.add_argument("-ip", "--ipAddress", help="Print ip address information (e for external)", metavar="ipAddress", nargs=1, default=argparse.SUPPRESS)
+    parser.add_argument("-w", "--wifi", help="Information about the wifi interface with given frequency (2.4 or 5) and connected clients.", metavar="frequency", nargs=1, default=argparse.SUPPRESS)
+    parser.add_argument("-ip", "--ipAddress", help="Print ip address information (e for external)", metavar="addressType", nargs=1, default=argparse.SUPPRESS)
     parser.add_argument("-sl", "--syslog",
-                        help="Print syslog of speedport. You must specify the verbosity, e.g. 0. The higher the number, the more old messages will be loaded. (You can ex- or include entries with -slf",
+                        help="Print syslog of speedport. You must specify the verbosity, e.g. 0. The higher the number, the more old messages will be loaded. (You can ex- or include message types with -slf)",
                         metavar="printSyslog", nargs=1, default=argparse.SUPPRESS)
     parser.add_argument("-slf", "--syslog_filter", help="ARGUMENT DOES NOTHING WHEN -sl IS NOT SET!!\nEx - or include entries in the syslog. Use in, to include and ex, to exclude, followed by one or more option"
                                                         "\nFollowing options are possible:\ne -> E-Mail Notifications\nwui -> Login attempts to Web Interface\nt -> Entries related to time settings"
