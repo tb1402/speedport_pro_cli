@@ -17,6 +17,7 @@ To use this program you will need following configuration and dependencies:
 - minimum Python 3
 - Argparse `$ pip install argparse`
 - Selenium `$ pip install selenium`
+- Geckodriver (the executable must be in path), you can download it [here](https://github.com/mozilla/geckodriver/releases)
 
 ## Usage
 After you installed all required modules just clone the repository and run `$ python speedport.py`.
