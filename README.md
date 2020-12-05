@@ -8,7 +8,7 @@
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Contribution](#contribution)
-- [License](#license)
+- [License](LICENSE)
 
 ## Dependencies
 To use this program you will need following configuration and dependencies:
@@ -22,6 +22,3 @@ For help on available options and the usage see th Wiki section or run the scrip
 
 ## Contribution
 If you want to contribute to this project, just contact me.
-
-## License
-See [License](LICENSE.md)
