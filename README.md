@@ -1,6 +1,7 @@
 # Speedport Pro command line interface
 
 [![repo-size](https://img.shields.io/github/repo-size/tb1402/speedport_pro_cli?color=red)](https://github.com/tb1402/speedport_pro_cli/)
+[![latest-commit](https://img.shields.io/github/last-commit/tb1402/speedport_pro_cli?color=red)](https://github.com/tb1402/speedport_pro_cli/)
 
 [![top-language](https://img.shields.io/github/languages/top/tb1402/speedport_pro_cli?color=red)](https://github.com/tb1402/speedport_pro_cli/) based program to control the home router Speedport Pro from "Deutsche Telekom" via command line.
 
