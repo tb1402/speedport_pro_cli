@@ -6,13 +6,13 @@
 [![top-language](https://img.shields.io/github/languages/top/tb1402/speedport_pro_cli?color=red)](https://github.com/tb1402/speedport_pro_cli/) based program to control the home router Speedport Pro from "Deutsche Telekom" via command line.
 
 ## Table of Contents/Inhalt
-- [Dependencies/Abhängigkeiten](#dependencies/abhängigkeiten)
+- [Dependencies-Abhängigkeiten](#dependencies-abhängigkeiten)
 - [Usage](#usage)
 - [Features](#features)
 - [Contribution](#contribution)
 - [License](LICENSE)
 
-## Dependencies/Abhängigkeiten
+## Dependencies-Abhängigkeiten
 To use this program you will need following configuration and dependencies:
 - minimum Python 3
 - Argparse `$ pip install argparse`
