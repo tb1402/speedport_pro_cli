@@ -1,2 +1,2 @@
-from .wifiInterface import WifiInterface
-from .wifiClient import WifiClient
+from .wifi import WifiInterface
+from .wifi import WifiClient
